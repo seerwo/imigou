@@ -83,7 +83,7 @@ func (ak *DefaultAccessToken) GetAccessParam(req string)(accessParam string, err
 
 	ap := AccessParam{}
 	ap.MsgType = ""
-	ap.MsgId = utils.GetId()
+	ap.MsgId = util.GetId()
 	ap.UserCode = ak.appID
 
 	encodeText := base64.StdEncoding.EncodeToString([]byte(req))
