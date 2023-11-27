@@ -1,2 +1,1 @@
-# imigou
-imigou-sdk
+# imigou-sdk
